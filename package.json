@@ -1,0 +1,49 @@
+{
+  "name": "react-native-permission-handler-wrapper",
+  "version": "0.0.2",
+  "description": "A lightweight and reusable React Native wrapper component to handle runtime permissions like camera, location, photo library, and notifications — with built-in UI fallback for denied or blocked states.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "jest",
+    "build": "tsup index.ts --format cjs,esm --dts",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shameemkpofficial-git/rn-permission-wrapper.git"
+  },
+  "keywords": [
+    "react-native",
+    "permissions",
+    "camera-permission",
+    "react-native-wrapper",
+    "location-permission",
+    "permission-handler"
+  ],
+  "author": {
+    "name": "Shameem KP",
+    "url": "https://github.com/shameemkpofficial-git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shameemkpofficial-git/rn-permission-wrapper/issues"
+  },
+  "homepage": "https://github.com/shameemkpofficial-git/rn-permission-wrapper#readme",
+  "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e",
+  "dependencies": {
+    "react-native-permissions": "^3.0.0"
+  },
+  "devDependencies": {
+    "@swc/core": "^1.12.9",
+    "@types/react": "^19.1.8",
+    "react": "^19.1.0",
+    "tsup": "^8.5.0",
+    "typescript": "^5.8.3"
+  },
+  "peerDependencies": {
+    "react": ">=17.0.0",
+    "react-native": ">=0.64.0",
+    "react-native-permissions": "^3.0.0"
+  }
+}

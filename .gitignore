@@ -1,0 +1,34 @@
+# Node modules
+node_modules/
+
+# Build output
+dist/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# macOS system files
+.DS_Store
+
+# TypeScript cache
+*.tsbuildinfo
+
+# dotenv environment files
+.env
+.env.*
+
+# IDEs
+.vscode/
+.idea/
+
+# Tests
+coverage/
+
+# Lint/formatting
+.eslintcache
+
+# Dependency lock (optional if you're using only `npm`)
+package-lock.json
